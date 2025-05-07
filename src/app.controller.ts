@@ -13,7 +13,7 @@ export class AppController {
   getTest(): object {
     return { data: '테스트당', message: '테스트' };
   }
-  @Get()
+  @Get('siu')
   getSiuuu(): object {
     return { data: 'Siuuu', message: '씨.우' };
   }
